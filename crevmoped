@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Global Apps y ePAGPS">
+  <title>Global Apps | ePAGPS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar" id="top">
+    <a class="brand" href="#top" aria-label="Global Apps">
+      <span class="brand-icon">G</span>
+      <span>Global Apps<small>ePAGPS</small></span>
+    </a>
+    <nav aria-label="Navegación">
+      <a href="#apps">Aplicaciones</a>
+      <a href="#epagps">ePAGPS</a>
+    </nav>
+    <a class="button button-small" href="#contacto">Contáctanos</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Tecnología para una operación conectada</p>
+        <h1>Tu operación, siempre a la vista.</h1>
+        <p class="intro">Conoce las soluciones de Global Apps para organizar, monitorear y gestionar tus operaciones desde un solo lugar.</p>
+        <div class="actions">
+          <a class="button" href="#apps">Explorar aplicaciones</a>
+          <a class="button button-quiet" href="#epagps">Conocer ePAGPS</a>
+        </div>
+      </div>
+
+      <div class="visual" aria-label="Ilustración de monitoreo de flota">
+        <div class="visual-top">
+          <span class="live"><i></i> Sistema conectado</span>
+          <span>Vista general</span>
+        </div>
+        <div class="map">
+          <span class="pin pin-one"></span>
+          <span class="pin pin-two"></span>
+          <span class="pin pin-three"></span>
+          <span class="path"></span>
+        </div>
+        <div class="stats">
+          <div><small>Ubicación</small><strong>En tiempo real</strong></div>
+          <div><small>Gestión</small><strong>Centralizada</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="apps">
+      <p class="eyebrow">Global Apps</p>
+      <h2>Herramientas para simplificar tu día.</h2>
+      <p class="section-lead">Explora las soluciones disponibles para apoyar la gestión y el seguimiento de tus operaciones.</p>
+
+      <div class="cards">
+        <article class="card">
+          <span class="app-icon purple">G</span>
+          <p class="tag">Monitoreo</p>
+          <h3>ePAGPS</h3>
+          <p>Consulta ubicación y recorridos de tus unidades con herramientas de seguimiento GPS.</p>
+          <a href="#epagps">Más información <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="card">
+          <span class="app-icon blue">A</span>
+          <p class="tag">Gestión</p>
+          <h3>Global Apps</h3>
+          <p>Un punto de acceso para conocer las aplicaciones y servicios de la plataforma.</p>
+          <a href="#contacto">Solicitar información <span aria-hidden="true">→</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="feature" id="epagps">
+      <div>
+        <p class="eyebrow">ePAGPS</p>
+        <h2>Información útil para tomar mejores decisiones.</h2>
+        <p>ePAGPS ofrece una vista clara de la ubicación y el movimiento de tus unidades. Conecta tus operaciones y mantén la información importante a mano.</p>
+        <ul>
+          <li>Seguimiento de unidades</li>
+          <li>Consulta de recorridos</li>
+          <li>Acceso centralizado a la información</li>
+        </ul>
+      </div>
+
+      <div class="feature-box">
+        <span class="feature-mark">⌖</span>
+        <p>Monitoreo GPS</p>
+        <strong>Tu flota, más visible</strong>
+        <div class="feature-line"></div>
+        <small>Información de ubicación en un solo lugar</small>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <p class="eyebrow">¿Quieres saber más?</p>
+      <h2>Hablemos de tu operación.</h2>
+      <p>Contáctanos para conocer las soluciones de Global Apps y ePAGPS.</p>
+      <a class="button" href="mailto:info@example.com">Solicitar información</a>
+      <small>Actualiza este correo con el contacto oficial de tu organización.</small>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Global Apps · ePAGPS</span>
+    <a href="#top">Volver arriba ↑</a>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
